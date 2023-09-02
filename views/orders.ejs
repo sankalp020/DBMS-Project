@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Orders</title>
+</head>
+<body>
+    <h1 class="heading">Pending Orders</h1>
+    <table>
+        <div>
+            <table class="cartTable">
+                <th>
+                    <tr class="name"> Priority</tr>
+                    
+                </th>
+    
+    
+                <% for(let i=0; i<orderedItems.length; i++){ %>
+                    
+                        <tr>
+                            <td>
+                                <%= orderedItems[i].id %>
+                            </td>
+                            <td>
+                                <%= orderedItems[i].ord_name %>
+                            </td>
+                            <td>
+                                <%= orderedItems[i].ord_qty %>
+                            </td>
+                        </tr>
+                            <% } %>
+            </table>
+        </div>
+    </table>
+
+    <div class="buton">
+        <form action="/orders" method="post">
+        <button class="btn btn-secondary" type="submit">Ready to Deliver</button>
+        </form>
+    </div>
+
+</body>
+</html>

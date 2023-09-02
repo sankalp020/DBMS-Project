@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.body{
+    background-color: black;
+}
+
+.about-reviewer{
+    text-align: center;
+}
+
+.about-us{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buton{
+    width: 90%;
+    margin: 20px;
+}
+
+.buton:hover{
+    box-shadow: 20px 20px 50px grey;
+}
+.do-login{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 80px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40vh;
+    padding: 25px;
+}
+
+.ip-boxes{
+    border: none;
+    
+    margin: 10px;
+    width: 80%;
+}
+
+.ip-boxes:hover{
+    box-shadow: 20px 20px 50px grey;
+
+}
+.login-page{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.login-window{
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: azure;
+    box-shadow: 20px 20px 50px grey;
+    height: 60vh;
+
+}
+
+#partners{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.par-img{
+    height: 250px;
+    width: 30%;
+    margin: 15px;
+
+}
+
+.partener-image{
+    margin: 20px auto 20px auto;
+
+}
+
+.reviews{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.reviewer-img{
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 20px 20px 50px grey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+}
+
+
+.waiter-img{
+    height: 400px;
+    width: 400px;
+    
+}

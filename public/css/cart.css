@@ -1,0 +1,46 @@
+
+body{
+    background-color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+td{
+    padding:23px;
+    font-weight:bold
+}
+
+table{
+    border: black;
+}
+
+.buton{
+    text-align: middle;
+    position: relative;
+    top: 400px;
+    margin: 23px;
+}
+
+
+.cartTable{
+    margin: 20px;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.name{
+    width: 60%;
+}
+
+.totalamt{
+    position: relative;
+    top: 250px;
+    padding: 23px;
+}
+
+

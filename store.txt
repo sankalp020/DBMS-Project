@@ -1,0 +1,23 @@
+app.get("/menu", function(req, res){
+    var items=[];
+    var items_sql="SELECT item_name, item_price FROM menu";
+   connection.query(items_sql, function(err, result){
+    if (err) throw error;
+    var res=JSON.stringify(result);
+    
+    
+    for(let i=0; i<5; i++){
+    var item={
+        name : result[i].item_name,
+        price : result[i].item_price 
+    }
+    items.push(item);
+    }
+    // app.render("menu", {
+    //     itemsList : items
+    // });
+});
+
+    app.render("menu");
+
+});
